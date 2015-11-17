@@ -1,0 +1,21 @@
+body {
+  background-color: lightblue;
+  text-align: center;
+}
+
+table {
+  width: 888px;
+}
+th, td {
+  border: solid 1px black;
+  min-width: 72px;
+}
+
+th {
+  border-bottom: 2px solid #111;
+  border-top: 2px solid #111;
+}
+
+td {
+  text-align: center;
+}
