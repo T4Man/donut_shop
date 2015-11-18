@@ -1,9 +1,21 @@
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans', Tahoma, sans-serif;
+}
+
+body {
+  background-color: #83CAFF;
+  max-width: 888px;
+}
+
+header {
+  margin-left: 6%;
+}
+
 h1 {
-  position: static;
   top: 10px;
-  font-family: serif;
+  font-family: Palatino, 'Book Antiqua', Georgia, serif;
   text-align: center;
-  border: 4px solid black
+  border-image: url(images/dots.jpg) 20 20 200 20 stretch;
 }
 
 p {
@@ -16,27 +28,44 @@ button {
 }
 
 legend {
+  background-color: #F1EEE8;
   border-style: solid;
   border-width: 2px;
   text-align: center;
 }
 
-table, td, th, tr {
+ td, th {
     padding: 5px;
     border: 2px solid black;
-    background-color: #F1EEE8;
-
 }
 
 table {
-  width: 80%;
   margin-left: 10%;
   margin-right: 10%;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   top: 100px;
+  border-image: url(images/dots.jpg) 20 20 200 20 stretch;
 }
 
-#btn {
-  font-size: 1em;
+tr:nth-child(even) {
+  background-color: #FFA319;
 }
 
+tr:nth-child(odd) {
+  background-color: #A9FFFF;
+}
+
+form {
+  border-image: url(images/dots.jpg) 20 20 200 20 stretch;
+  background: url(images/sprinkles.gif);
+  background-size: 888px 330px;
+  margin-left: 6%;
+}
+
+#newStore {
+  font-size: .75em;
+}
+
+#deleteRow {
+  font-size: .75em;
+}

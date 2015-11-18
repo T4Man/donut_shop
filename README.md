@@ -1,6 +1,12 @@
-//Refactored most of the code.
-//Code now pushes hourly calculations to array and uses a 'total' variable to increase the total each time an hourly calculation is made.
-//Added a form with submit button to capture user input to add a new store.
-//Added a condition to make sure no form fields are empty.
-//Added a 'delete last row' button.
-//Changed to a 'forEach' from 'for loop' to itereate through the static data arrays.
+//Add styling to donut shop assignment.
+
+//Gradient background: thanks to w3schools (http://www.w3schools.com/css/css3_gradients.asp)
+
+//Font family: thanks to Dan's Tools font stack help (www.cssfontstack.com)
+
+//Color selection: thanks to Adobe Color (https://color.adobe.com)
+
+//Removed solid borders and replaced with border image.
+
+//Added donut gif as a background image for the form.
+
