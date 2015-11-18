@@ -1,34 +1,53 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Top Pot Sales Estimates by Location</title>
-    <link rel="stylesheet" type="text/css" href="donutShop.css">
-  </head>
-  <body>
-    <header>
-      <h1>Top Pot Sales Estimates by Location</h1>
-    </header>
-    <p>Table shows average sales per hour by location and estimated daily totals.</p>
-    <table id="shopsTable">
-      <tbody>
-        <tr class="hourHeads">
-          <th scope="col">Location</th>
-          <th scope="col">8:00 AM</th>
-          <th scope="col">9:00 AM</th>
-          <th scope="col">10:00 AM</th>
-          <th scope="col">11:00 AM</th>
-          <th scope="col">Noon</th>
-          <th scope="col">1:00 PM</th>
-          <th scope="col">2:00 PM</th>
-          <th scope="col">3:00 PM</th>
-          <th scope="col">4:00 PM</th>
-          <th scope="col">5:00 PM</th>
-          <th scope="col">6:00 PM</th>
-          <th scope="col">Daily Total</th>
-        </tr>
-      </tbody>
-    </table>
-    <script src="donutShop.js"></script>
-  </body>
-</html>
+<head>
+  <title>Top Pot Sales</title>
+  <link href="topPot.css" type="text/css" rel="stylesheet" />
+  <h1>Top Pot Sales Estimates by Location</h1>
+  <p>Table shows average sales per hour and daily totals by location.</p>
+</head>
+<body>
+  <table id='reportTable' style = "width:80%">
+    <tr id='loc'>
+      <th>Locations</th>
+      <th>8am</th>
+      <th>9am</th>
+      <th>10am</th>
+      <th>11am</th>
+      <th>12pm</th>
+      <th>1pm</th>
+      <th>2pm</th>
+      <th>3pm</th>
+      <th>4pm</th>
+      <th>5pm</th>
+      <th>6pm</th>
+      <th>7pm</th>
+      <th>Daily <br>Total</br></th>
+    </tr>
+  </table>
+  <form id='addStore'>
+    <fieldset>
+      <legend>Complete the form below and click "Add Store" to add a new location</legend>
+      <p>
+        Enter the New Store Location<label for='name'></label>
+        <input type='text' id='name'></input>
+      </p>
+      <p>
+        Minimum Customers per Hour<label for='min'></label>
+        <input type='text' id='min'></input>
+      </p>
+      <p>
+        Maximum Customers per Hour<label for='max'></label>
+        <input type='text' id='max'></input>
+      </p>
+      <p>
+        Average Donuts per Customer<label for='perCust'></label>
+        <input type='text' id='perCust'></input>
+      </p>
+      <button id='newStore' type="button">Add Store</button>
+      <button id='deleteRow' type="button">Delete last row</button>
+    </fieldset>
+  </form>
+<script src="topPot.js"></script>
+</body>
+
+
