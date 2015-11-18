@@ -16,7 +16,7 @@ TopPotShop.prototype.render = function() {
   cell.innerHTML = this.storeLoc;
   table.appendChild(cell);
 
-  for (var i = 0; i < this.perHour.length; i++){
+  for (var i = 0; i < this.perHour.length; i++) {
     var td = document.createElement('td');
     td.innerHTML = this.perHour[i];
     cell.appendChild(td);

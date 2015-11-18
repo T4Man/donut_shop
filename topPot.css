@@ -7,19 +7,43 @@ body {
   max-width: 888px;
 }
 
-header {
-  margin-left: 6%;
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-image: url(images/border05.gif) 20 20 200 20 stretch;
+  border-image-width: 5px 5px 5px 5px;
+}
+
+.table {
+  border-image: url(images/border05.gif) 20 20 200 20 stretch;
+  border-image-width: 5px 5px 5px 5px;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-image: url(images/border05.gif) 20 20 200 20 stretch;
+  border-image-width: 5px 5px 5px 5px;
+  padding: 5px;
+}
+
+.footer {
+  border-image: url(images/border05.gif) 20 20 200 20 stretch;
+  border-image-width: 5px 5px 5px 5px;
 }
 
 h1 {
   top: 10px;
   font-family: Palatino, 'Book Antiqua', Georgia, serif;
   text-align: center;
-  border-image: url(images/dots.jpg) 20 20 200 20 stretch;
+  padding: 5px;
 }
 
 p {
   text-align: center;
+  padding: 5px;
 }
 
 button {
@@ -35,16 +59,12 @@ legend {
 }
 
  td, th {
-    padding: 5px;
     border: 2px solid black;
 }
 
 table {
   margin-left: 10%;
   margin-right: 10%;
-  margin-bottom: 20px;
-  top: 100px;
-  border-image: url(images/dots.jpg) 20 20 200 20 stretch;
 }
 
 tr:nth-child(even) {
@@ -56,10 +76,9 @@ tr:nth-child(odd) {
 }
 
 form {
-  border-image: url(images/dots.jpg) 20 20 200 20 stretch;
   background: url(images/sprinkles.gif);
   background-size: 888px 330px;
-  margin-left: 6%;
+  margin: 5 auto;
 }
 
 #newStore {
@@ -68,4 +87,7 @@ form {
 
 #deleteRow {
   font-size: .75em;
+}
+#calories {
+  margin: 0 auto;
 }
