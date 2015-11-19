@@ -1,12 +1,12 @@
-//Add styling to donut shop assignment.
+//Donut Shop layout assignment.
 
-//Gradient background: thanks to w3schools (http://www.w3schools.com/css/css3_gradients.asp)
+//Added a section to hold donut cartoons
 
-//Font family: thanks to Dan's Tools font stack help (www.cssfontstack.com)
+//Using flexbox for alignment
 
-//Color selection: thanks to Adobe Color (https://color.adobe.com)
+//Changed border image to an animated gif
 
-//Removed solid borders and replaced with border image.
+//Tested in Firefox
 
-//Added donut gif as a background image for the form.
+//Tested in Chrome device emulator
 
