@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+  <title>Top Pot Sales</title>
+  <link href="topPot.css" type="text/css" rel="stylesheet" />
+</head>
+<body class="flex-container">
+  <section class="header">
+    <header>
+      <h1>Top Pot Sales Estimates by Location</h1>
+      <p>Table shows average sales per hour and daily totals by location.</p>
+    </header>
+  </section>
+  <section class="table">
+    <table id='reportTable' style = "width:80%">
+      <tr id='loc'>
+        <th>Locations</th>
+        <th>8am</th>
+        <th>9am</th>
+        <th>10am</th>
+        <th>11am</th>
+        <th>12pm</th>
+        <th>1pm</th>
+        <th>2pm</th>
+        <th>3pm</th>
+        <th>4pm</th>
+        <th>5pm</th>
+        <th>6pm</th>
+        <th>7pm</th>
+        <th>Daily <br>Total</br></th>
+      </tr>
+    </table>
+  </section>
+  <section class="form">
+    <form id='addStore'>
+      <fieldset>
+        <legend>Complete the form below and click "Add Store" to add a new location</legend>
+        <p>
+          Enter the New Store Location<label for='name'></label>
+          <input type='text' id='name'></input>
+        </p>
+        <p>
+          Minimum Customers per Hour<label for='min'></label>
+          <input type='text' id='min'></input>
+        </p>
+        <p>
+          Maximum Customers per Hour<label for='max'></label>
+          <input type='text' id='max'></input>
+        </p>
+        <p>
+          Average Donuts per Customer<label for='perCust'></label>
+          <input type='text' id='perCust'></input>
+        </p>
+        <button id='newStore' type="button">Add Store</button>
+        <button id='deleteRow' type="button">Delete last row</button>
+      </fieldset>
+    </form>
+    <img id="calories" src="images/calories.gif">
+  </section>
+  <section class="cartoons">
+    <img src="images/donutOfPower.jpg">
+    <img src="images/healthyDonut.jpg">
+    <img src="images/donut_hole2.jpg">
+  </section>
+  <section class="footer">
+    <footer class="foot">
+
+    </footer>
+  </section>
+  <script src="topPot.js"></script>
+</body>
