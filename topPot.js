@@ -53,7 +53,7 @@ document.getElementById('newStore').addEventListener('click', function() {
 });
 
 //--- static initial data stored in arrays to populate table with -----------
-var stores = new Array();
+var stores = [];
   stores[0] = new TopPotShop("Downtown", 8, 43, 4.5);
   stores[1] = new TopPotShop("Capitol Hill", 4, 37, 2);
   stores[2] = new TopPotShop("SLU", 9, 23, 6.33);
